@@ -7,7 +7,7 @@
 // You can create an Array using the [] characters.
 // Note the commas between the items.
 // Return the array of fruit strings in the function below.
-
+// hello
 function threeFruits () {
   const fruits = ['Apple', 'Banana', 'Cherry']
 
