@@ -7,10 +7,13 @@
 // You can create an Array using the [] characters.
 // Note the commas between the items.
 // Return the array of fruit strings in the function below.
-// hello
+
 function threeFruits () {
   const fruits = ['Apple', 'Banana', 'Cherry']
+  
+  console.log(fruits.length)
 
+  return fruits;
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -20,6 +23,9 @@ function threeFruits () {
 function multipleTypes () {
   const diverseArray = ['Skateboard', null, 8.75, 'Eiffel Tower', 44, 7, true, null]
 
+  console.log(diverseArray.length)
+
+  return diverseArray
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -40,6 +46,7 @@ function indexAccess () {
 
   // return the third item from the "people" array here
 
+    return people[2]
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -49,6 +56,9 @@ function indexAccess () {
 function useLength () {
   const arr = ['a', 'b', 'c']
 
+    console.log(arr.length)
+
+    return arr.length
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -58,6 +68,9 @@ function useLength () {
 function usePush () {
   let arr = ['a', 'b', 'c']
 
+    arr.push('d')
+
+    return arr
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -67,6 +80,9 @@ function usePush () {
 function usePop () {
   let arr = ['a', 'b', 'c']
 
+  arr.pop(arr[2])
+  
+    return arr
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -85,6 +101,7 @@ function useIndexOf () {
 
   // return the index of the first instance of "T" here
 
+    return arr.indexOf('T')
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -101,6 +118,7 @@ function useJoin () {
 
   // create and return the string 'a-b-c-d-e-f' here
 
+    return arr.join('-')
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
